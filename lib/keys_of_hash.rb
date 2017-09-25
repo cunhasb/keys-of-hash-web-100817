@@ -1,6 +1,5 @@
 require 'pry'
 class Hash
-=begin
   def keys_of(*arguments)
     # code goes here
     species =[]
@@ -12,11 +11,6 @@ class Hash
 
       end
   species
-  end
-=end
-  def keys_of(*arguments)
-    binding.pry
-    self.map{|keys| species.value(arguments)}.compact
   end
 
 end
