@@ -15,7 +15,7 @@ class Hash
   end
 =end
   def keys_of(*arguments)
-    bindin.pry
+    binding.pry
     self.map{|keys| species.value(arguments)}.compact
   end
 
