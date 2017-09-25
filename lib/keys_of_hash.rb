@@ -12,5 +12,10 @@ class Hash
       end
   species
   end
-  #binding.pry
+
+  def keys_of(*arguments)
+    self.map{|keys| species.value(arguments)}.compact
+  end
+  
 end
+
